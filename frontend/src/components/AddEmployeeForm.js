@@ -26,7 +26,7 @@ const AddEmployeeForm = () => {
     setError(""); // Reset errors
     try {
       const response = await axios.post(
-        "https://employee-backend-2-bt2a.onrender.com/api/employees/add",
+        "https://employee-management-backend-latest.onrender.com/api/employees/add",
         formData
       );
       alert(response.data.message); // Display success message
