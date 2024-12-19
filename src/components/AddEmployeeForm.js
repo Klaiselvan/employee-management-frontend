@@ -26,7 +26,7 @@ const AddEmployeeForm = () => {
     setError(""); // Reset errors
     try {
       const response = await axios.post(
-        "https://employee-backend-2od9.onrender.com/api/employees/add",
+        "http://localhost:5000/api/employees/add",
         formData
       );
       alert(response.data.message); // Display success message
