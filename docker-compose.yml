@@ -18,8 +18,9 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - SUPABASE_URL = https://faccghcpitprujgrtonf.supabase.co
-      - SUPABASE_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhY2NnaGNwaXRwcnVqZ3J0b25mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQ1MzU4ODUsImV4cCI6MjA1MDExMTg4NX0.bC5FqrXoAAKadogQCJR9oMt3fQRT9jgT9z6x6ffz4FI   
+      - SUPABASE_URL=https://faccghcpitprujgrtonf.supabase.co
+      - SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhY2NnaGNwaXRwcnVqZ3J0b25mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQ1MzU4ODUsImV4cCI6MjA1MDExMTg4NX0.bC5FqrXoAAKadogQCJR9oMt3fQRT9jgT9z6x6ffz4FI
+
     volumes:
       - ./backend:/usr/src/app
     command: node server.js
